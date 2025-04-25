@@ -2,7 +2,8 @@
 
 const { cmd } = require("../lib/command");
 const { fetchJson } = require("../lib/functions");
-
+const axios = require("axios")
+const config = require("../settings");
 cmd({
     pattern: "channelreact",
     alias: ["chr"],
