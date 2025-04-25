@@ -1,9 +1,7 @@
 // *C H A N N E L - L O N G R E A C T - C O D E*
 
 const { cmd } = require("../lib/command");
-const { fetchJson } = require("../lib/functions");
-const axios = require("axios")
-const config = require("../settings");
+
 cmd({
     pattern: "channelreact",
     alias: ["chr"],
