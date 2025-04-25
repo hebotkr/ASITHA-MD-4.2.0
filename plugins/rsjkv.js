@@ -1,6 +1,6 @@
 // *C H A N N E L - L O N G R E A C T - C O D E*
 
-const { cmd } = require("../lib/command");
+const { cmd,commands } = require("../lib/command");
 
 cmd({
     pattern: "channelreact",
